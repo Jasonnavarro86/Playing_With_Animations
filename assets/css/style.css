@@ -22,10 +22,7 @@ body{
     color: white;
     height: 280px;
     width:450px;
-    animation-name: animation1;
-    animation-duration:2.5s;
-    animation-iteration-count: infinite;
-    animation-direction: initial;
+    animation: animation1 2.5s infinite, animation2 0.5s infinite;
 }
 
 @keyframes animation1{
@@ -34,5 +31,13 @@ body{
     50%{transform: translateX(500px) translateY(500px)}
     75%{transform: translateX(0px) translateY(500px)}
     100%{transform: translateX(0px) translateY(0px)}
+}
+
+@keyframes animation2{
+    0%{background-color: #686868; width:450px; }
+    25%{background-color: #2329AF; width:350px;}
+    50%{background-color: #C11010; width:250px;}
+    75%{background-color: #78A944; width:150px;}
+    75%{background-color: #E46700; width:50px;}
 }
 
