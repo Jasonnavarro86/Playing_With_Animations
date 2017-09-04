@@ -1,0 +1,13 @@
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: blue;
+    color: white;
+    height: 80px;
+    width:150px;
+    transition: width 1000ms ease 0.5s;
+    
+}
+
+h1:hover{
+    width:450px;
+}
