@@ -1,9 +1,6 @@
 h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    background-color: blue;
-    color: white;
-    height: 80px;
-    width:150px;
+  
    
     
 }
@@ -16,6 +13,23 @@ body{
 
 #particles-js{
     height: 100%;
-    background-color: #333;
+    background-color: #21C067;
+}
+
+#animateTest{
+
+    background-color: #67677C;
+    color: white;
+    height: 280px;
+    width:450px;
+    animation-name: animation1;
+    animation-duration:4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes animation1{
+    0%{ transform: translateX(0px)}
+    100%{transform: translateX( 500px)}
 }
 
