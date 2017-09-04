@@ -23,13 +23,16 @@ body{
     height: 280px;
     width:450px;
     animation-name: animation1;
-    animation-duration:4s;
+    animation-duration:2.5s;
     animation-iteration-count: infinite;
-    animation-direction: alternate;
+    animation-direction: initial;
 }
 
 @keyframes animation1{
     0%{ transform: translateX(0px)}
-    100%{transform: translateX( 500px)}
+    25%{ transform: translateX(500px)}
+    50%{transform: translateX(500px) translateY(500px)}
+    75%{transform: translateX(0px) translateY(500px)}
+    100%{transform: translateX(0px) translateY(0px)}
 }
 
