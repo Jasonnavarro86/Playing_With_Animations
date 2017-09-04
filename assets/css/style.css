@@ -4,10 +4,7 @@ h1{
     color: white;
     height: 80px;
     width:150px;
-    transition: width 1000ms ease 0.5s;
+   
     
 }
 
-h1:hover{
-    width:450px;
-}
